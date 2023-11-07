@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "保存文本文件插件",
+  "version": "1.0",
+  "description": "点击后在本地输出一个文本文件",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+    }
+}
